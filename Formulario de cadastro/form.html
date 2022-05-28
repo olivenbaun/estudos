@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--TITULO DA PÁGINA-->
+    <h1 id="title">Formulário de Cadastro</h1>
+
+    <!--FORMULARIO PRINCIPAL-->
+    <form action="" method="post"> <!--   PENDENTE CRIAR E REFERENCIAR AQUI O ARQUIVO QUE RECEBERÁ AS INFORMAÇÕES DO FORMULARIO   -->
+        <div class="form">
+            <label for="name">Nome Completo: </label>
+            <input type="text" id="name" />
+        </div>
+        <div class="form">
+            <label for="cpf">CPF: </label>
+            <input type="text" maxlength="11" placeholder="Informar apenas os números do CPF" id="cpf">
+        </div>
+        <div class="form">
+            <label for="email">E-mail: </label>
+            <input type="email" id="email">
+        </div>
+        <div class="form">
+            <label for="phone">Telefone: </label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div class="form" class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <!--RODAPÉ-->
+    <footer class="footer">
+        <p id="dev_by">Desenvolvido por Caroline Oliveira - Mai/2022</p>
+    </footer>
+
+    <script src="validation.js"></script>
+</body>
+</html>
